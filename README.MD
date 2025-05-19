@@ -32,19 +32,11 @@ composer require putheakhem/khmer-number-to-text
 ### Basic Example
 
 ```php
-use KhmerNumber;
+use Putheakhem\KhmerNumberToText\Facades\KhmerNumber;
 
 echo KhmerNumber::toText(1234);    // មួយពាន់ពីររយសាមសិបប្រាំបួន
-echo KhmerNumber::toText('៦៧៨៩');  // ប្រាំពីរលានប្រាំបួនពាន់...
+echo KhmerNumber::toText('៦៧៨៩');  // ប្រាំមួយពាន់ប្រាំពីររយប៉ែតសិបប្រាំបួន...
 ```
-
-### With Khmer digits
-
-```php
-echo KhmerNumber::toText('១២៣'); // មួយរយម្ភៃបី
-```
-
----
 
 ## 📚 Internals
 

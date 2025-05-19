@@ -1,9 +1,11 @@
+[![Latest Stable Version](https://poser.pugx.org/putheakhem/khmer-number-to-text/v/stable)](https://packagist.org/packages/putheakhem/khmer-number-to-text)
+[![Total Downloads](https://poser.pugx.org/putheakhem/khmer-number-to-text/downloads)](https://packagist.org/packages/putheakhem/khmer-number-to-text)
+[![License](https://poser.pugx.org/putheakhem/khmer-number-to-text/license)](https://packagist.org/packages/putheakhem/khmer-number-to-text)
 # Khmer Number To Text
 
 Convert Arabic or Khmer digit numbers into **Khmer written text format** (spoken form), suitable for invoices, financial documents, education, and legal reporting in the Khmer language.
 
 ---
-
 ## 📦 Installation
 
 ```bash
@@ -37,6 +39,13 @@ use Putheakhem\KhmerNumberToText\Facades\KhmerNumber;
 echo KhmerNumber::toText(1234);    // មួយពាន់ពីររយសាមសិបប្រាំបួន
 echo KhmerNumber::toText('៦៧៨៩');  // ប្រាំមួយពាន់ប្រាំពីររយប៉ែតសិបប្រាំបួន...
 ```
+### Helper
+If you prefer, you can use the global helper function:
+```php
+echo khmer_number_to_text(2025); // ពីរពាន់ម្ភៃប្រាំ
+
+echo khmer_number_to_text('១២៣៤'); // មួយពាន់ពីររយសាមសិបប្រាំបួន
+```
 
 ## 📚 Internals
 
@@ -64,6 +73,11 @@ Contributions are welcome! Please follow these steps:
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within this package, please send an e-mail to puthea.khem at gmail.com. All security vulnerabilities will be promptly addressed.
+
+## Support Me 
+
+If you find this package useful, consider supporting my work:
+- [Buy me a coffee](https://www.buymeacoffee.com/iamputhea)
 
 ## 📄 License
 

@@ -37,6 +37,13 @@ use Putheakhem\KhmerNumberToText\Facades\KhmerNumber;
 echo KhmerNumber::toText(1234);    // មួយពាន់ពីររយសាមសិបប្រាំបួន
 echo KhmerNumber::toText('៦៧៨៩');  // ប្រាំមួយពាន់ប្រាំពីររយប៉ែតសិបប្រាំបួន...
 ```
+### Helper
+If you prefer, you can use the global helper function:
+```php
+echo khmer_number_to_text(2025); // ពីរពាន់ម្ភៃប្រាំ
+
+echo khmer_number_to_text('១២៣៤'); // មួយពាន់ពីររយសាមសិបប្រាំបួន
+```
 
 ## 📚 Internals
 

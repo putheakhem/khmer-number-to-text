@@ -6,6 +6,21 @@
 Convert Arabic or Khmer digit numbers into **Khmer written text format** (spoken form), suitable for invoices, financial documents, education, and legal reporting in the Khmer language.
 
 ---
+
+<div align="center">
+
+## 🇰🇭 Stand with Cambodia • កម្ពុជា
+
+### 🕊️ Cambodia Needs Peace 🕊️
+
+With heavy hearts, we stand with our brave soldiers defending Cambodia’s land and dignity.  
+We seek no conflict—only peace, justice, and respect for our sovereignty.
+
+**🙏 កម្ពុជាត្រូវការសន្តិភាព • Together to protect Cambodia’s sovereignty.**
+</div>
+
+---
+
 ## 📦 Installation
 
 ```bash
